@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: hackathon
+  description: Sin descripción
+  annotations:
+    github.com/project-slug: crlsquilumba/hackathon
+spec:
+  type: library
+  lifecycle: experimental
+  owner: user:default/guest
